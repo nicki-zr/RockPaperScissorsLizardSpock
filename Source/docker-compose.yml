@@ -1,5 +1,7 @@
 version: "3.4"
 
+runs-on: self-hosted
+
 services:
   dotnet.player:
     image: ${REGISTRY:-msftrpsls}/dotnet.player:${TAG:-latest}
